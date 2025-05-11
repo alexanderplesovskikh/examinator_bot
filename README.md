@@ -4,6 +4,8 @@
 
 В данный момент бот умеет задавать вопросы из курса "Компьютерная графика".
 
+![Examinator bot hero image](https://github.com/alexanderplesovskikh/examinator_bot/blob/main/exerciser.png)
+
 ## Запуск модели ollama
 
 1. Скачать ollama по ссылке: https://ollama.com/download/
