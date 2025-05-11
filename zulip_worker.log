@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/oleg/education/python-zulip-api/zulip_bots/zulip_bots/bots/exerciser/worker.py", line 77, in <module>
+    worker.process_events()
+  File "/home/oleg/education/python-zulip-api/zulip_bots/zulip_bots/bots/exerciser/worker.py", line 14, in process_events
+    events = get_pending_events()
+  File "/home/oleg/education/python-zulip-api/zulip_bots/zulip_bots/bots/exerciser/db/events.py", line 55, in get_pending_events
+    conn = psycopg2.connect(**DB_CONFIG)
+  File "/home/oleg/education/python-zulip-api/zulip-api-py3-venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  the database system is shutting down
+

@@ -1,0 +1,21 @@
+model loaded
+Running Exerciser Bot (from source):
+Привет! Это бот-тренажер, который поможет тебе хорошо подготовиться к экзамену по курсу 'Компьютерная графика'.
+
+Команды для этого бота:
+help или помощь - показать это сообщение
+начать или start или старт - начать тренировку
+exam или экзамен - начать тренировку в режиме экзамена. P.S. С каждого модуля курса будет выдано по одному вопросу.
+stop или стоп - завершить текущую тренировку
+
+INFO:root:starting message handling...
+INFO:root:waiting for next message
+INFO:root:waiting for next message
+INFO:root:waiting for next message
+Получение изображения для вопроса с ID: 1
+Загрузка изображения: 1.png
+Абсолютный путь к файлу: /home/oleg/education/python-zulip-api/zulip_bots/zulip_bots/bots/exerciser/zulip_bots/zulip_bots/bots/exerciser/image/1.png
+Изображение 1.png не найдено.
+WARNING:root:Изображение с ID 1 не найдено в папке image.
+INFO:root:waiting for next message
+INFO:root:waiting for next message
